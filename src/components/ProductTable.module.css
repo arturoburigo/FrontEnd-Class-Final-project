@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions button {
+    padding: 5px;
+    /* font-size: 16px; */
+}
+
+.table_container h2 {
+    margin-bottom: 20px;
+}

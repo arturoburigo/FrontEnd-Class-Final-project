@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "name": "Uva",
+      "price": "15",
+      "stock": "30",
+      "id": "630f"
+    }
+  ]
+}
