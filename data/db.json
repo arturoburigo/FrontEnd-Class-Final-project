@@ -1,10 +1,42 @@
 {
-  "products": [
+  "cars": [
     {
-      "name": "Uva",
-      "price": "15",
-      "stock": "30",
-      "id": "630f"
+      "id": "1",
+      "carName": "Renault Sandero",
+      "carDetails": "1.0 12V Manual",
+      "carPrice": "21000",
+      "carYear": "2012/2011",
+      "carKilometer": "130000"
+    },
+    {
+      "id": "2",
+      "carName": "Chevrolet Onix",
+      "carDetails": "1.0 12V Manual",
+      "carPrice": "50000",
+      "carYear": "2016/2017",
+      "carKilometer": "40000"
+    },
+    {
+      "id": "3",
+      "carName": "Ford Fiesta",
+      "carDetails": "1.0 12V Manual",
+      "carPrice": "22000",
+      "carYear": "2011/2011",
+      "carKilometer": "160000"
+    }
+  ],
+  "users": [
+    {
+      "id": "4",
+      "username": "Arturo Burigo",
+      "email": "arturoburigo@gmail.com",
+      "password": "America2024"
+    },
+    {
+      "id": "5",
+      "username": "Gustavo Niero",
+      "email": "gustavoniero@gmail.com",
+      "password": "Bolsonaro22"
     }
   ]
 }

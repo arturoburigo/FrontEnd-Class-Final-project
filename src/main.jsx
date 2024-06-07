@@ -1,17 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import ErrorPage from './routes/ErrorPage.jsx'
 import Login from './routes/Login.jsx'
 import Home from './routes/Home.jsx'
+import SignUp from './routes/SignUp.jsx'
+import Profile from './routes/Profile.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App/>,
-    errorElement: <ErrorPage/>,
     children: [
       {
         path: '/',
@@ -20,6 +19,14 @@ const router = createBrowserRouter([
       {
         path: '/home',
         element: <Home />
+      },
+      {
+        path: '/signup',
+        element: <SignUp />
+      },
+      {
+        path: '/profile',
+        element: <Profile />
       }
     ]
   }
