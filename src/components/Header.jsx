@@ -1,7 +1,7 @@
 import classes from './Header.module.css';
 
 export default function Header() {
-    return (
+    return (        
         <div className={classes.content}>
             <div className={classes.header_content}>
                 <p className={classes.for_rent}>For rent</p>
