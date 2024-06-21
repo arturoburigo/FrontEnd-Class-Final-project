@@ -10,6 +10,7 @@ a {
 .content {
     width: 100%;
     padding: 50px; /* Adiciona padding lateral de 20px */
+    margin-bottom: 30px;
 }
 
 .about_us {

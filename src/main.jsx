@@ -6,6 +6,8 @@ import Login from './routes/Login.jsx'
 import Home from './routes/Home.jsx'
 import SignUp from './routes/SignUp.jsx'
 import Profile from './routes/Profile.jsx'
+import EditCar from './routes/EditCar.jsx'
+import AddCar from "./routes/AddCar.jsx"
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: '/profile',
         element: <Profile />
+      },
+      {
+        path: "/edit/:id",
+        element: <EditCar/>
+      },
+      {
+        path: "/add",
+        element: <AddCar/>
       }
     ]
   }
