@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import classes from './Header.module.css';
 
 export default function Header() {
@@ -10,10 +11,10 @@ export default function Header() {
                 </div>
                 <div className={classes.profile_add}>
                     <button className={classes.add_car}>
-                        <a href="">ADICIONAR</a>
+                        <Link to="/add">ADICIONAR</Link>
                     </button>
                     <button>
-                        <a href="/profile">Meu perfil</a>
+                        <Link to="/profile">Meu perfil</Link>
                     </button>
                 </div>
             </div>

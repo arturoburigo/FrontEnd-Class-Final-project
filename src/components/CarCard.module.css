@@ -1,13 +1,21 @@
 /* CarCard.module.css */
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cartões */
+    justify-content: center; /* Alinha os cartões ao centro */
+}
+
 .content {
     background-color: #E9ECEF;
     max-width: 264px;
     border-radius: 10px;
-    margin-left: 20px;
-    padding: 15px 10px 40px 10px; /* Padding: 10px em cima e dos lados, 20px embaixo */
-    display: flex; /* Adicionado para flexbox no contêiner pai */
-    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    margin: 20px;
+    padding: 15px 10px 40px 10px;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .carContent {
@@ -16,6 +24,12 @@
     align-items: center;
     justify-content: center;
     text-align: center; 
+}
+
+.carContent img {
+    max-width: 233px;
+    max-height: 156px;
+    border-radius: 10px;
 }
 
 .carDetails {
@@ -37,25 +51,23 @@
     font-size: 12px;
 }
 
-.km_year{
+.km_year {
     margin-top: 10px;
     display: flex;
-    gap: 100px;
-    justify-content: space-between;
     align-items: center;
+    gap: 100px;
 }
 
 .buttons {
     display: flex;
     margin-top: 20px;
-    padding: 0px;
     gap: 20px;
     align-items: center;
     justify-content: center;
 }
 
 .buttons button {
-    background-color: #fFF;
+    background-color: #FFF;
     border: none;
     padding: 10px 25px;
     border-radius: 10px;
