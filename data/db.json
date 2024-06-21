@@ -27,15 +27,7 @@
       "carKilometer": "160000",
       "carImage": "https://img1.icarros.com/dbimg/galeriaimgmodelo/2/3415_1.jpg"
     },
-    {
-      "id": "230c",
-      "carName": "Amarok",
-      "carDetails": "Simplismente amarok",
-      "carPrice": "130.000",
-      "carYear": "2022",
-      "carKilometer": "20.000",
-      "carImage": "https://i.pinimg.com/736x/bd/41/7b/bd417b673516722e722c316f0f99c4a2.jpg"
-    }
+    
   ],
   "users": [
     {
