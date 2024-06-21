@@ -3,26 +3,29 @@
     {
       "id": "1",
       "carName": "Renault Sandero",
-      "carDetails": "1.0 12V Manual",
-      "carPrice": "21000",
+      "carDetails": "1.0 12V Automatico",
+      "carPrice": "21.990",
       "carYear": "2012/2011",
-      "carKilometer": "130000"
+      "carKilometer": "130000",
+      "carImage": "https://img1.icarros.com/dbimg/galeriaimgmodelo/2/7756_1"
     },
     {
       "id": "2",
       "carName": "Chevrolet Onix",
       "carDetails": "1.0 12V Manual",
-      "carPrice": "50000",
+      "carPrice": "50.000",
       "carYear": "2016/2017",
-      "carKilometer": "40000"
+      "carKilometer": "40000",
+      "carImage": "https://img1.icarros.com/dbimg/galeriaimgmodelo/7/42734_1.jpg"
     },
     {
       "id": "3",
       "carName": "Ford Fiesta",
       "carDetails": "1.0 12V Manual",
-      "carPrice": "22000",
+      "carPrice": "22.000",
       "carYear": "2011/2011",
-      "carKilometer": "160000"
+      "carKilometer": "160000",
+      "carImage": "https://img1.icarros.com/dbimg/galeriaimgmodelo/2/3415_1.jpg"
     }
   ],
   "users": [

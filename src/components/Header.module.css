@@ -2,7 +2,47 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.content{
+a {
+    color: inherit; /* Herda a cor do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.content {
     width: 100%;
-    background-color: red;
+    padding: 50px; /* Adiciona padding lateral de 20px */
+    margin-bottom: 30px;
+}
+
+.about_us {
+    font-size: 16;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_content p {
+    margin: 0;
+}
+
+.for_rent {
+    font-size: 20px; /* Define o tamanho da fonte para 20px */
+}
+
+.profile_add button {
+    margin-right: 20px; 
+    font-size: 16px;
+    border: none;
+    background: none;/* Adiciona espaçamento entre os botões */
+}
+
+.add_car {
+    color: #28BE2E;
+    background: none;
+}
+
+.add_car a{
+    font-size: 22px;
 }

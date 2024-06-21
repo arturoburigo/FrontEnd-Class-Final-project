@@ -1,0 +1,84 @@
+/* CarCard.module.css */
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cartões */
+    justify-content: center; /* Alinha os cartões ao centro */
+}
+
+.content {
+    background-color: #E9ECEF;
+    max-width: 264px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px 10px 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.carContent img {
+    max-width: 233px;
+    max-height: 156px;
+    border-radius: 10px;
+}
+
+.carDetails {
+    align-items: self-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.carDetails h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.carDetails p{
+    color: #9F8F8F;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.km_year {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: #FFF;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.editar {
+    font-weight: bold;
+    color: #495057;
+}
+
+.excluir {
+    font-weight: bold;
+    color: #C53825;
+}
