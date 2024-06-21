@@ -57,7 +57,7 @@ export default function CarCard() {
                         <h1>R$ {car.carPrice}</h1>
                         <div className={classes.km_year}>
                             <p>{car.carYear}</p>
-                            <p>{car.carKilometer}km</p>
+                            <p>{car.carKilometer} km</p>
                         </div>
                         <div className={classes.buttons}>
                             <button className={classes.editar} onClick={() => handleEdit(car.id)}>

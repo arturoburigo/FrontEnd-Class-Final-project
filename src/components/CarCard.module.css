@@ -3,7 +3,7 @@
 .cardsContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Espaçamento entre os cartões */
+    gap: 30px; /* Espaçamento entre os cartões */
     justify-content: center; /* Alinha os cartões ao centro */
 }
 
@@ -55,7 +55,7 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 120px;
 }
 
 .buttons {
