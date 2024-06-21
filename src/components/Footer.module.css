@@ -1,0 +1,51 @@
+/* Footer.module.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Garante que o footer ocupe 100% da largura */
+    padding: 40px 20px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; /* Garante que o conteúdo do footerContent ocupe 100% da largura */
+}
+
+.socialMedia {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.socialIcon {
+    color: #fff;
+    font-size: 24px;
+}
+
+.contact, .aboutUs {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.contact p, .aboutUs p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .footerContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact, .aboutUs {
+        padding: 10px;
+    }
+}
