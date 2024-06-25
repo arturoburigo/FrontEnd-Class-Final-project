@@ -28,6 +28,7 @@ export default function SignUp() {
                 },
                 body: JSON.stringify(user),
             });
+            navigate('/login')
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -37,7 +38,7 @@ export default function SignUp() {
     };
 
     const handleCancel = () => {
-        navigate('/home'); 
+        navigate('/login'); 
     };
 
     return (
@@ -74,7 +75,7 @@ export default function SignUp() {
                     />
                 </div>
                 <div className={classes.buttons}>
-                    <button type="submit" onClick={handleCancel} className={classes.salvar}>Sign Up</button>
+                    <button type="submit" onClick={handleSubmit} className={classes.salvar}>Sign Up</button>
                     <button type="button" className={classes.cancelar} onClick={handleCancel}>Cancel</button>
                 </div>
             </form>
