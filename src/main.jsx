@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { RouterProvider, createBrowserRouter, Navigate } from 'react-router-dom';
 import App from './App.jsx';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Login from './routes/Login.jsx';
 import Home from './routes/Home.jsx';
 import SignUp from './routes/SignUp.jsx';
@@ -17,11 +17,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <PrivateRoute />
+        element: <Navigate to="/home" />
       },
       {
         path: '/login',
         element: <Login />
+      },
+      {
+        path: '/signup',
+        element: <SignUp />
       },
       {
         path: '/home',
@@ -30,10 +34,6 @@ const router = createBrowserRouter([
             <Home />
           </PrivateRoute>
         )
-      },
-      {
-        path: '/signup',
-        element: <SignUp />
       },
       {
         path: '/profile',
