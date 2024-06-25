@@ -1,14 +1,22 @@
+import { useEffect } from 'react';
+import { useNavigate, Outlet } from 'react-router-dom';
 
-import { Outlet } from 'react-router-dom'
+function App() {
+  const navigate = useNavigate();
 
+  useEffect(() => {
+    const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
 
-function App() {  
+    if (!isAuthenticated) {
+      navigate('/login');
+    }
+  }, [navigate]);
 
   return (
     <>
-      <Outlet/>
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
