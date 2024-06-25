@@ -30,16 +30,22 @@
   ],
   "users": [
     {
-      "id": "4",
-      "username": "Arturo Burigo",
-      "email": "arturoburigo@gmail.com",
-      "password": "America2024"
-    },
-    {
       "id": "5",
       "username": "Gustavo Niero",
       "email": "gustavoniero@gmail.com",
       "password": "Bolsonaro22"
+    },
+    {
+      "id": "c82e",
+      "username": "Gustavo Ribas",
+      "email": "ribas@gmial.com",
+      "password": "123"
+    },
+    {
+      "id": "80df",
+      "username": "Arturo",
+      "email": "arturoburigo@gmail.com",
+      "password": "1233"
     }
   ]
 }
