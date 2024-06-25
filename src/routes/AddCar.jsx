@@ -35,14 +35,14 @@ export default function AddCar() {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            navigate('/');
+            navigate('/home');
         } catch (error) {
             console.error('Submit error:', error);
         }
     };
 
     const handleCancel = () => {
-        navigate('/');
+        navigate('/home');
     };
 
     return (
