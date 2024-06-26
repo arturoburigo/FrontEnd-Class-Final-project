@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import styles from './Profile.module.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Profile = () => {
   const navigate = useNavigate();
@@ -70,46 +72,50 @@ const Profile = () => {
   };
 
   return (
-    <div className={styles.container}>
-      <h1>Profile</h1>
-      <form onSubmit={handleUpdate} className={styles.form}>
-        <div className={styles.formGroup}>
-          <label htmlFor="username">Username:</label>
-          <input
-            type="text"
-            id="username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
-        </div>
-        <div className={styles.formGroup}>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className={styles.formGroup}>
-          <label htmlFor="password">Password:</label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <div className={styles.buttons}>
-          <button type="submit">Alterar</button>
-          <button onClick={handleLogout} className="logout">Sair</button>
-          <button onClick={handleDelete} className="delete">Deletar Usuário</button>
-        </div>
-      </form>
-    </div>
+    <>
+      <Header/>
+      <div className={styles.container}>
+        <h1>Profile</h1>
+        <form onSubmit={handleUpdate} className={styles.form}>
+          <div className={styles.formGroup}>
+            <label htmlFor="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              required
+            />
+          </div>
+          <div className={styles.formGroup}>
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className={styles.formGroup}>
+            <label htmlFor="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <div className={styles.buttons}>
+            <button type="submit">Alterar</button>
+            <button onClick={handleLogout} className="logout">Sair</button>
+            <button onClick={handleDelete} className="delete">Deletar Usuário</button>
+          </div>
+        </form>
+      </div>
+    <Footer/>
+    </>
   );
 };
 

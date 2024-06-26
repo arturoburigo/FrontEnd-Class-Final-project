@@ -1,15 +1,6 @@
 {
   "cars": [
     {
-      "id": "1",
-      "carName": "Renault Sandero",
-      "carDetails": "1.0 12V Automatico",
-      "carPrice": "21.990",
-      "carYear": "2012",
-      "carKilometer": "130.000",
-      "carImage": "https://img1.icarros.com/dbimg/galeriaimgmodelo/2/7756_1"
-    },
-    {
       "id": "2",
       "carName": "Chevrolet Onix",
       "carDetails": "1.0 12V Manual",
